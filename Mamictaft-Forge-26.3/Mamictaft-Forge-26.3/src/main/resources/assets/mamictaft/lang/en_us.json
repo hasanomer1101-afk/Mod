@@ -1,0 +1,20 @@
+{
+  "block.mamictaft.biting_plant": "Biting Plant",
+  "item.mamictaft.biting_plant_seed": "Biting Plant Seed",
+  "item.mamictaft.chain_item": "Chain",
+  "item.mamictaft.wind": "Wind",
+  "item.mamictaft.baltic_bucket": "Baltic Water Bucket",
+  "item.mamictaft.bubble": "Bubble",
+  "item.mamictaft.chinese_temple": "Chinese Temple",
+  "block.mamictaft.atom_bomb": "Atom Bomb",
+  "block.mamictaft.adalium_ore": "Adalium Ore",
+  "item.mamictaft.adalium": "Adalium",
+  "item.mamictaft.adalium_cluster": "Adalium Cluster",
+  "item.mamictaft.adalium_core": "Adalium Core",
+  "item.mamictaft.throwing_disc_copper": "Copper Throwing Disc",
+  "item.mamictaft.throwing_disc_iron": "Iron Throwing Disc",
+  "item.mamictaft.throwing_disc_gold": "Golden Throwing Disc",
+  "item.mamictaft.throwing_disc_diamond": "Diamond Throwing Disc",
+  "item.mamictaft.throwing_disc_netherite": "Netherite Throwing Disc",
+  "itemGroup.mamictaft.tab": "Mamictaft"
+}

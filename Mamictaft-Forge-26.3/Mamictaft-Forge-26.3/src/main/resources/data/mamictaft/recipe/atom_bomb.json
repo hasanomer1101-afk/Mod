@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CTC",
+    "CCC",
+    " T "
+  ],
+  "key": {
+    "C": "mamictaft:adalium_core",
+    "T": "minecraft:tnt"
+  },
+  "result": {
+    "id": "mamictaft:atom_bomb",
+    "count": 1
+  }
+}

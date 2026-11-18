@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:wheat_seeds",
+    "minecraft:spider_eye"
+  ],
+  "result": {
+    "id": "mamictaft:biting_plant_seed",
+    "count": 1
+  }
+}

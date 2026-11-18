@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "mamictaft:adalium",
+    "mamictaft:adalium",
+    "mamictaft:adalium",
+    "mamictaft:adalium",
+    "mamictaft:adalium"
+  ],
+  "result": {
+    "id": "mamictaft:adalium_cluster",
+    "count": 1
+  }
+}

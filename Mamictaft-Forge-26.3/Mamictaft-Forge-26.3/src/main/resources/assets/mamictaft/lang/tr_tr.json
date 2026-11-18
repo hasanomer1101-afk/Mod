@@ -1,0 +1,20 @@
+{
+  "block.mamictaft.biting_plant": "Isiran Bitki",
+  "item.mamictaft.biting_plant_seed": "Isiran Bitki Tohumu",
+  "item.mamictaft.chain_item": "Zincir",
+  "item.mamictaft.wind": "Ruzgar",
+  "item.mamictaft.baltic_bucket": "Baltik Suyu Kovasi",
+  "item.mamictaft.bubble": "Baloncuk",
+  "item.mamictaft.chinese_temple": "Çin Tapınağı",
+  "block.mamictaft.atom_bomb": "Atom Bombası",
+  "block.mamictaft.adalium_ore": "Adalium Cevheri",
+  "item.mamictaft.adalium": "Adalium",
+  "item.mamictaft.adalium_cluster": "Adalium Kümesi",
+  "item.mamictaft.adalium_core": "Adalium Çekirdeği",
+  "item.mamictaft.throwing_disc_copper": "Bakır Fırlatma Diski",
+  "item.mamictaft.throwing_disc_iron": "Demir Fırlatma Diski",
+  "item.mamictaft.throwing_disc_gold": "Altın Fırlatma Diski",
+  "item.mamictaft.throwing_disc_diamond": "Elmas Fırlatma Diski",
+  "item.mamictaft.throwing_disc_netherite": "Netherite Fırlatma Diski",
+  "itemGroup.mamictaft.tab": "Mamictaft"
+}

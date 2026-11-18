@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[66,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="mamictaft"
+version="${version}"
+displayName="Mamictaft"
+description='''Mamictaft Bedrock addon'unun Java (Forge) uyarlaması.'''
+logoFile="logo.png"
+
+[[dependencies.mamictaft]]
+modId="minecraft"
+mandatory=true
+versionRange="[26.3,)"
+ordering="NONE"
+side="BOTH"

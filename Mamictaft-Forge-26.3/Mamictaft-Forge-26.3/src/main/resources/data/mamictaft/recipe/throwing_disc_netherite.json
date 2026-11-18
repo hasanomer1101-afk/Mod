@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "mamictaft:throwing_disc_diamond",
+    "minecraft:netherite_ingot"
+  ],
+  "result": {
+    "id": "mamictaft:throwing_disc_netherite",
+    "count": 1
+  }
+}

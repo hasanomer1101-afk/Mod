@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[7.0,)'
+}
+
+group = 'com.mamictaft'
+version = mod_version
+
+java { toolchain.languageVersion = JavaLanguageVersion.of(25) }
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    runs {
+        client { workingDirectory project.file('run'); property 'forge.logging.console.level', 'debug'; mods { "${mod_id}" { source sourceSets.main } } }
+        server { workingDirectory project.file('run'); args '--nogui'; mods { "${mod_id}" { source sourceSets.main } } }
+    }
+}
+
+repositories { maven { url = 'https://maven.minecraftforge.net' } }
+
+dependencies {
+    implementation minecraft.dependency("net.minecraftforge:forge:${minecraft_version}-${forge_version}")
+}
+
+processResources {
+    inputs.property 'version', mod_version
+    filesMatching('META-INF/mods.toml') { expand 'version': mod_version }
+}

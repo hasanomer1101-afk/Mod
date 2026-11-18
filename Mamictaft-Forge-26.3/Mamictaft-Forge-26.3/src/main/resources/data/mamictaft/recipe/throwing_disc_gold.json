@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "mamictaft:throwing_disc_gold",
+    "count": 1
+  }
+}

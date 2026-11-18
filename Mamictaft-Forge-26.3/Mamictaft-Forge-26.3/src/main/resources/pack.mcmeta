@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Mamictaft",
+    "pack_format": 99,
+    "min_format": 99,
+    "max_format": 999
+  }
+}
