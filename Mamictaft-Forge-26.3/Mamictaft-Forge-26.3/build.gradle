@@ -11,12 +11,18 @@ java { toolchain.languageVersion = JavaLanguageVersion.of(25) }
 minecraft {
     mappings channel: 'official', version: minecraft_version
     runs {
-        client { workingDirectory project.file('run'); property 'forge.logging.console.level', 'debug'; mods { "${mod_id}" { source sourceSets.main } } }
-        server { workingDirectory project.file('run'); args '--nogui'; mods { "${mod_id}" { source sourceSets.main } } }
+        client {
+            workingDir project.file('run')
+            systemProperty 'forge.logging.console.level', 'debug'
+        }
+        server {
+            workingDir project.file('run')
+            args '--nogui'
+        }
     }
 }
 
-repositories { maven { url = 'https://maven.minecraftforge.net' } }
+repositories { maven { url = 'https://minecraftforge.net' } }
 
 dependencies {
     implementation minecraft.dependency("net.minecraftforge:forge:${minecraft_version}-${forge_version}")
